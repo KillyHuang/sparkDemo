@@ -1,4 +1,4 @@
-package com.spark.demo.flumeDemo;
+package com.spark.demo.kafkaDemo;
 
 import java.util.Arrays;
 import java.util.Collection;
