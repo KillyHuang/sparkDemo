@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="sparkDemo:war exploded">
+    <output-path>$PROJECT_DIR$/target/sparkDemo</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="sparkDemo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.16" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.16" />
+          <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.2.6" />
+          <element id="library" level="project" name="Maven: net.jpountz.lz4:lz4:1.3.0" />
+          <element id="library" level="project" name="Maven: org.scala-lang:scala-library:2.11.8" />
+          <element id="library" level="project" name="Maven: org.apache.spark:spark-tags_2.11:2.2.0" />
+          <element id="library" level="project" name="Maven: org.spark-project.spark:unused:1.0.0" />
+          <element id="library" level="project" name="Maven: org.apache.spark:spark-streaming_2.11:2.2.0" />
+          <element id="library" level="project" name="Maven: org.apache.spark:spark-streaming-kafka-0-10_2.11:2.2.0" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka_2.11:0.10.0.1" />
+          <element id="library" level="project" name="Maven: com.101tec:zkclient:0.8" />
+          <element id="library" level="project" name="Maven: com.yammer.metrics:metrics-core:2.2.0" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.11:1.0.4" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka-clients:0.10.0.1" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.40" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/sparkDemo/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="sparkDemo/web/Web" />
+    </root>
+  </artifact>
+</component>

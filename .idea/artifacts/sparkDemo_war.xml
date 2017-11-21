@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sparkDemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="sparkDemo.war">
+      <element id="artifact" artifact-name="sparkDemo:war exploded" />
+    </root>
+  </artifact>
+</component>
