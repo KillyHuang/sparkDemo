@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c622b90-aa6c-4173-98e9-cd0a33d68e05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+    <list default="true" id="4c622b90-aa6c-4173-98e9-cd0a33d68e05" name="Default" comment="change file position">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_configuration_1_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_core_1_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_sdk_1_6_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mina_mina_core_2_0_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_flume_2_11_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_spark_spark_streaming_flume_sink_2_11_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spark/demo/flumeDemo/flumeDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaDirectDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaStreamDemo.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/kafkaDemo.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/sparkDemo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/sparkDemo_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkDemo.iml" afterPath="$PROJECT_DIR$/sparkDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/spark/demo/SparkDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/spark/demo/SparkDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,8 +37,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1495">
-              <caret line="65" column="54" lean-forward="false" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+            <state relative-caret-position="1311">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -29,30 +47,44 @@
       <file leaf-file-name="SparkDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/SparkDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="184">
+              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kafkaDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/kafkaDemo.java">
+      <file leaf-file-name="KafkaDirectDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaDirectDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="414">
+              <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2250#2542#0" expanded="true" />
-                <element signature="e#2541#2542#0" expanded="true" />
-                <element signature="e#2548#2735#0" expanded="true" />
-                <element signature="e#2734#2735#0" expanded="true" />
-                <element signature="e#2788#2990#0" expanded="true" />
-                <element signature="e#2989#2990#0" expanded="true" />
-                <element signature="e#3062#3257#0" expanded="true" />
-                <element signature="e#3256#3257#0" expanded="true" />
-                <element signature="e#3333#3516#0" expanded="true" />
-                <element signature="e#3515#3516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaStreamDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaStreamDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="44" column="80" lean-forward="false" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flumeDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/flumeDemo/flumeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,10 +110,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spark/demo/SparkDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spark/demo/flumeDemo/kafkaDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/kafkaDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spark/demo/SparkDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaDirectDemo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spark/demo/flumeDemo/flumeDemo.java" />
       </list>
     </option>
   </component>
@@ -116,9 +152,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
-    <option name="y" value="36" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="112" />
+    <option name="y" value="48" />
     <option name="width" value="1736" />
     <option name="height" value="966" />
   </component>
@@ -155,9 +191,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,16 +233,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="kafkaDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="flumeDemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -328,7 +364,10 @@
       <option name="presentableId" value="Default" />
       <updated>1511240964226</updated>
       <workItem from="1511240969228" duration="4922000" />
-      <workItem from="1511252427916" duration="240000" />
+      <workItem from="1511252427916" duration="1206000" />
+      <workItem from="1511316147153" duration="120000" />
+      <workItem from="1511316464231" duration="12904000" />
+      <workItem from="1511341599619" duration="328000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1511244441965</created>
@@ -362,39 +401,39 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5162000" />
+    <option name="totallyTimeSpent" value="19480000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="36" width="1736" height="966" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34382567" sideWeight="0.5023283" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3434238" sideWeight="0.49583334" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3434238" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24970897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34382567" sideWeight="0.49767172" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -422,36 +461,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1495">
-          <caret line="65" column="54" lean-forward="false" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+        <state relative-caret-position="1311">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/SparkDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="184">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/kafkaDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaDirectDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="42" column="59" lean-forward="false" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+        <state relative-caret-position="1081">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2250#2542#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2548#2735#0" expanded="true" />
-            <element signature="e#2734#2735#0" expanded="true" />
-            <element signature="e#2788#2990#0" expanded="true" />
-            <element signature="e#2989#2990#0" expanded="true" />
-            <element signature="e#3062#3257#0" expanded="true" />
-            <element signature="e#3256#3257#0" expanded="true" />
-            <element signature="e#3333#3516#0" expanded="true" />
-            <element signature="e#3515#3516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="58" lean-forward="false" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/flumeDemo/flumeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -472,22 +521,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/kafkaDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaDirectDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="759">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2250#2542#0" expanded="true" />
-            <element signature="e#2541#2542#0" expanded="true" />
-            <element signature="e#2548#2735#0" expanded="true" />
-            <element signature="e#2734#2735#0" expanded="true" />
-            <element signature="e#2788#2990#0" expanded="true" />
-            <element signature="e#2989#2990#0" expanded="true" />
-            <element signature="e#3062#3257#0" expanded="true" />
-            <element signature="e#3256#3257#0" expanded="true" />
-            <element signature="e#3333#3516#0" expanded="true" />
-            <element signature="e#3515#3516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="65" column="54" lean-forward="false" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/SparkDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaDirectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="50" column="79" lean-forward="true" selection-start-line="50" selection-start-column="79" selection-end-line="50" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1495">
+          <caret line="65" column="54" lean-forward="false" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/SparkDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaDirectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="42" column="59" lean-forward="false" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/SparkDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaDirectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/kafkaDemo/KafkaStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="44" column="80" lean-forward="false" selection-start-line="44" selection-start-column="80" selection-end-line="44" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spark/demo/flumeDemo/flumeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -581,7 +718,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: junit:junit:3.8.1</last-edited>
+          <last-edited>Maven: com.101tec:zkclient:0.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
