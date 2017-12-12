@@ -6,6 +6,6 @@ public class SparkDemo {
 
     public static void main(String[] args) {
         KafkaDirectDemo kafkaDirectDemo = new KafkaDirectDemo();
-//        kafkaDirectDemo.DirectKafkaStream();
+        kafkaDirectDemo.DirectKafkaStream();
     }
 }
