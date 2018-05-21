@@ -19,7 +19,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class KafkaStreamDemo {
+public class  KafkaStreamDemo {
 
     private static final SparkConf conf = new SparkConf().setAppName("").setMaster("spark://HOST1:PORT1,HOST2:PORT2");
     private static final JavaSparkContext CONTEXT = new JavaSparkContext(conf);

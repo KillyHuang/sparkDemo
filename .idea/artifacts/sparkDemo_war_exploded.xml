@@ -45,6 +45,7 @@
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.2.2" />
           <element id="library" level="project" name="Maven: org.apache.mina:mina-core:2.0.4" />
           <element id="library" level="project" name="Maven: org.apache.flume:flume-ng-sdk:1.6.0" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:6.0.6" />
           <element id="library" level="project" name="Maven: com.google.guava:guava:23.5-jre" />
           <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:2.0.0" />
           <element id="library" level="project" name="Maven: com.google.errorprone:error_prone_annotations:2.0.18" />

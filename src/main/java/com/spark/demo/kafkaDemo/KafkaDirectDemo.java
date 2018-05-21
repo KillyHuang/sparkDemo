@@ -4,10 +4,16 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+
+import com.spark.demo.bean.Person;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaPairRDD;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.api.java.function.Function2;
 import org.apache.spark.streaming.Durations;
+import org.apache.spark.streaming.Time;
 import org.apache.spark.streaming.api.java.JavaDStream;
 import org.apache.spark.streaming.api.java.JavaInputDStream;
 import org.apache.spark.streaming.api.java.JavaPairDStream;
@@ -40,6 +46,14 @@ public class KafkaDirectDemo {
 
         JavaDStream<String> words = kafkaMessage.mapToPair((recorder) -> (new Tuple2<>(recorder.key().toString(), recorder.value().toString())))
                 .map((tuple) -> (tuple._2())).flatMap( (lines) -> ( Arrays.asList(lines.split(" ")).iterator()));
+
+        JavaDStream<String> str = words.transform(new Function2<JavaRDD<String>, Time, JavaRDD<String>>() {
+            @Override
+            public JavaRDD<String> call(JavaRDD<String> stringJavaRDD, Time time) throws Exception {
+                return null;
+            }
+        });
+
 
         JavaPairDStream<String, Integer> counted = words.mapToPair((word) -> (new Tuple2<>(word, 1))).reduceByKey((num1,num2)-> ( num1 + num2));
 
